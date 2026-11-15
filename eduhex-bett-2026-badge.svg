@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fc" />
+      <stop offset="100%" stop-color="#eef0f7" />
+    </linearGradient>
+    <linearGradient id="bettPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28145a" />
+      <stop offset="100%" stop-color="#431c8c" />
+    </linearGradient>
+    <linearGradient id="exhibitorMagenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d41478" />
+      <stop offset="100%" stop-color="#a80f68" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card Background -->
+  <rect width="800" height="500" rx="18" fill="url(#bgGrad)" />
+
+  <!-- Top Header Banner (Bett ExCeL London) -->
+  <rect x="0" y="0" width="800" height="128" rx="18" fill="url(#bettPurple)" />
+  <rect x="0" y="90" width="800" height="38" fill="url(#bettPurple)" />
+
+  <!-- Decorative Bett Swirl -->
+  <circle cx="110" cy="64" r="88" fill="#5b2ab5" opacity="0.45" />
+  <circle cx="110" cy="64" r="56" fill="#d41478" opacity="0.35" />
+
+  <!-- Bett Logo & Dates -->
+  <text x="52" y="68" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="48" letter-spacing="-1">bett</text>
+  <text x="54" y="92" fill="#f5c542" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14">ExCeL London</text>
+  <text x="54" y="110" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13">21 - 23 January 2026</text>
+
+  <!-- Right Sponsor Badges -->
+  <rect x="495" y="26" width="265" height="76" rx="10" fill="#ffffff" />
+  <text x="515" y="54" fill="#3c4043" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15">Google for Education</text>
+  <rect x="692" y="38" width="54" height="22" rx="4" fill="#e1140a" />
+  <text x="700" y="53" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="11">Lenovo</text>
+  <text x="515" y="84" fill="#5f6368" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12"> OFFICIAL EXHIBITOR PASS</text>
+
+  <!-- Main Delegate Credentials -->
+  <text x="54" y="205" fill="#180e38" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="38" letter-spacing="0.5">HAROLD RAJESH GEORGE</text>
+  <text x="54" y="252" fill="#2d1d60" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="25" letter-spacing="1">CO FOUNDER</text>
+  <text x="54" y="294" fill="#3a2b6e" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="21">EDUHEX TECHNOLOGIES PRIVATE LIMITED</text>
+
+  <!-- QR Verification Box -->
+  <rect x="615" y="160" width="135" height="135" rx="12" fill="#ffffff" stroke="#d0d4e4" stroke-width="2" />
+  <rect x="631" y="176" width="32" height="32" fill="#180e38" />
+  <rect x="637" y="182" width="20" height="20" fill="#ffffff" />
+  <rect x="641" y="186" width="12" height="12" fill="#180e38" />
+  <rect x="702" y="176" width="32" height="32" fill="#180e38" />
+  <rect x="708" y="182" width="20" height="20" fill="#ffffff" />
+  <rect x="712" y="186" width="12" height="12" fill="#180e38" />
+  <rect x="631" y="247" width="32" height="32" fill="#180e38" />
+  <rect x="637" y="253" width="20" height="20" fill="#ffffff" />
+  <rect x="641" y="257" width="12" height="12" fill="#180e38" />
+  <rect x="672" y="195" width="22" height="22" fill="#d41478" />
+  <rect x="672" y="225" width="48" height="14" fill="#180e38" />
+  <rect x="698" y="247" width="36" height="32" fill="#180e38" />
+
+  <!-- Tagline Bar -->
+  <rect x="0" y="340" width="800" height="60" fill="#28145a" />
+  <text x="400" y="378" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="24" letter-spacing="2">LEARNING WITHOUT LIMITS</text>
+
+  <!-- Bottom EXHIBITOR Ribbon -->
+  <rect x="0" y="400" width="800" height="100" fill="url(#exhibitorMagenta)" />
+  <text x="400" y="466" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="48" letter-spacing="6">EXHIBITOR</text>
+</svg>

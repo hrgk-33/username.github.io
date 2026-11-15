@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harold Rajesh George Kulangara — Portfolio | Grade 12 Student, Builder &amp; Filmmaker</title>
+  <meta name="description" content="Portfolio of Harold Rajesh George Kulangara — Grade 12 Student, Builder, Filmmaker & Author from Kerala, India. Featuring Eduhex UK - Focus Lab, ID Phone X Artha, Mahaakaavya: The NEET Story, Author of Three, Sagaris AI, and Tomo Chan." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#08090C',
+            carbon: '#0D0E12',
+            alabaster: '#F4F4F6',
+            slateMuted: '#94A3B8',
+            gold: '#D4AF37',
+            'gold-light': '#E6C762',
+            cyan: '#00F0FF',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg-obsidian text-alabaster font-sans antialiased selection:bg-gold selection:text-obsidian">
+
+  <!-- MINIMALIST STICKY HEADER -->
+  <header class="sticky top-0 z-40 border-b border-white/[0.07] bg-obsidian/85 backdrop-blur-xl px-4 sm:px-8 py-4">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-4">
+      <a href="#section-hero" class="flex items-center gap-3 group">
+        <div class="w-8 h-8 rounded-full bg-gold/15 border border-gold/40 flex items-center justify-center font-display font-bold text-xs text-gold">
+          HG
+        </div>
+        <div>
+          <div class="font-display font-bold text-sm sm:text-base tracking-tight text-alabaster group-hover:text-gold transition-colors">
+            Harold Rajesh George
+          </div>
+          <div class="font-mono text-[10px] text-slateMuted">
+            Grade 12 Student • Builder, Filmmaker &amp; Author
+          </div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-xs font-mono uppercase tracking-wider text-slateMuted">
+        <a href="#section-hero" class="hover:text-alabaster transition-colors">Intro</a>
+        <a href="#section-projects" class="hover:text-alabaster transition-colors">Selected Work</a>
+        <a href="#section-about" class="hover:text-alabaster transition-colors">About Me</a>
+        <a href="#section-certificates" class="hover:text-alabaster transition-colors">Certificates</a>
+        <a href="#section-contact" class="hover:text-alabaster transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2.5">
+        <button type="button" onclick="openVaultModal('eduhex-focuslab')" class="px-3.5 py-2 rounded-full bg-white/[0.05] hover:bg-white/[0.1] border border-white/10 text-xs font-mono text-alabaster transition-all">
+          Project Files
+        </button>
+        <a href="#section-contact" class="px-4 py-2 rounded-full bg-gold text-obsidian font-mono text-xs font-bold uppercase tracking-wider hover:bg-gold-light transition-all">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO / INTRODUCTION -->
+  <section id="section-hero" class="py-16 sm:py-24 px-4 sm:px-8 border-b border-white/[0.07]">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.04] border border-white/10 text-xs font-mono text-gold">
+          <span>GRADE 12 STUDENT • KERALA, INDIA</span>
+        </div>
+
+        <h1 class="font-display font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight leading-[1.06] text-alabaster">
+          Hi, I'm <span class="text-gold">Harold Rajesh George Kulangara.</span>
+        </h1>
+
+        <p class="text-lg sm:text-xl text-alabaster/90 leading-relaxed">
+          I'm a Grade 12 student, builder, filmmaker, and author working at the intersection of
+          <span class="text-gold font-medium">distraction-free education</span>,
+          <span class="text-cyan font-medium">practical AI systems</span>, and
+          <span class="text-gold font-medium">human-centered storytelling</span>.
+        </p>
+
+        <p class="text-sm sm:text-base text-slateMuted leading-relaxed max-w-2xl">
+          From co-founding <strong class="text-alabaster">Eduhex UK - Focus Lab</strong> (exhibited at BeTT 2026 in London) and engineering <strong class="text-alabaster">ID Phone X Artha</strong>, to directing <strong class="text-alabaster">MAHAAKAAVYA The NEET STORY</strong> and writing three books (<strong class="text-alabaster">Author of Three</strong>), I turn ideas into real books, prototypes, and cinema.
+        </p>
+
+        <div class="pt-2 flex flex-wrap items-center gap-3">
+          <a href="#section-projects" class="px-6 py-3.5 rounded-full bg-gold text-obsidian font-mono text-xs sm:text-sm font-bold uppercase tracking-wider hover:bg-gold-light transition-all">
+            Explore Selected Work
+          </a>
+          <button type="button" onclick="openVaultModal('eduhex-focuslab')" class="px-5 py-3.5 rounded-full bg-white/[0.05] hover:bg-white/[0.1] border border-white/10 font-mono text-xs sm:text-sm uppercase tracking-wider text-alabaster transition-all">
+            Browse All Files
+          </button>
+          <a href="assets/documents/autobiography-of-a-gen-zombie.pdf" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 rounded-full bg-white/[0.03] hover:bg-white/[0.08] border border-white/10 font-mono text-xs sm:text-sm uppercase tracking-wider text-slateMuted hover:text-alabaster transition-all">
+            View Gen Zombie Book (PDF) ↗
+          </a>
+        </div>
+      </div>
+
+      <!-- Right 5 Columns: Responsive YouTube Video Embed & Social Pop-Up -->
+      <div class="lg:col-span-5">
+        <div class="rounded-2xl border border-white/10 bg-carbon shadow-2xl p-3 space-y-3">
+          <div class="flex items-center justify-between gap-2 px-1">
+            <div class="px-2.5 py-1 rounded-md bg-black/70 border border-white/10 font-mono text-[10px] text-gold">
+              MAHAAKAAVYA: THE NEET STORY • OFFICIAL TRAILER
+            </div>
+            <a href="https://www.youtube.com/watch?v=o9QupZzX-hA&amp;t=1s&amp;pp=ygUcdGhlIG5lZXQgc3RvcnkgYnkgcmdrIGNpbmVtYQ%3D%3D" target="_blank" rel="noopener noreferrer" class="font-mono text-[10px] text-cyan hover:underline">
+              YouTube ↗
+            </a>
+          </div>
+
+          <div class="youtube-responsive-wrapper">
+            <iframe
+              id="hero-youtube-iframe"
+              src="https://www.youtube.com/embed/o9QupZzX-hA?start=1&amp;rel=0"
+              title="Mahaakaavya: The NEET Story — Official Trailer by RGK Cinema"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-between gap-2 pt-1">
+            <a href="https://www.youtube.com/watch?v=o9QupZzX-hA&amp;t=1s&amp;pp=ygUcdGhlIG5lZXQgc3RvcnkgYnkgcmdrIGNpbmVtYQ%3D%3D" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-black/80 hover:bg-black border border-white/15 font-mono text-[11px] text-gold">
+              ▶ Watch on YouTube
+            </a>
+            <div class="relative">
+              <div id="social-popup-card" class="hidden absolute bottom-11 right-0 w-72 p-3.5 rounded-2xl bg-[#12141C] border border-gold/40 shadow-2xl space-y-2.5 z-50">
+                <div class="flex items-center justify-between border-b border-white/10 pb-2">
+                  <span class="font-mono text-[10px] uppercase tracking-wider text-gold">Official Profiles &amp; Sites</span>
+                  <button type="button" onclick="toggleSocialPopup()" class="text-slateMuted hover:text-alabaster text-xs">✕</button>
+                </div>
+                <a href="https://www.linkedin.com/in/harold-rajesh-george-4144a2335/" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-white/[0.04] hover:bg-white/[0.1] border border-white/10 flex items-center justify-between text-xs text-alabaster">
+                  <span>LinkedIn Profile</span><span class="text-cyan">↗</span>
+                </a>
+                <a href="https://www.youtube.com/@HaroldRajeshGeorgeKulangara" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-white/[0.04] hover:bg-white/[0.1] border border-white/10 flex items-center justify-between text-xs text-alabaster">
+                  <span>YouTube Channel</span><span class="text-gold">↗</span>
+                </a>
+                <a href="https://www.focuslab.school" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-white/[0.04] hover:bg-white/[0.1] border border-white/10 flex items-center justify-between text-xs text-alabaster">
+                  <span>www.focuslab.school</span><span class="text-cyan">↗</span>
+                </a>
+              </div>
+              <button type="button" onclick="toggleSocialPopup()" class="px-3 py-1.5 rounded-lg bg-gold text-obsidian font-mono text-[11px] font-bold uppercase tracking-wider">
+                LinkedIn, YouTube &amp; FocusLab
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SELECTED WORK / PROJECTS (CASE STUDIES) -->
+  <section id="section-projects" class="py-20 px-4 sm:px-8 border-b border-white/[0.07]">
+    <div class="max-w-6xl mx-auto space-y-12">
+      <div class="space-y-2">
+        <div class="font-mono text-xs uppercase tracking-widest text-gold">01 // SELECTED WORK &amp; CASE STUDIES</div>
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-alabaster">Featured Projects (Top 6)</h2>
+        <p class="text-sm sm:text-base text-slateMuted max-w-2xl">
+          Each project breaks down the problem addressed, the process followed, the tools used, and the outcome — with direct access to inspect, view, and download the original PDFs and media.
+        </p>
+      </div>
+
+      <div id="featured-projects-container" class="space-y-8"></div>
+
+      <div class="pt-6 space-y-4">
+        <div class="font-mono text-xs uppercase tracking-widest text-slateMuted">ADDITIONAL ARCHIVES &amp; EXPEDITIONS</div>
+        <div id="additional-archives-container" class="grid grid-cols-1 md:grid-cols-2 gap-5"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. ABOUT ME & CERTIFICATES -->
+  <section id="section-about" class="py-20 px-4 sm:px-8 border-b border-white/[0.07]">
+    <div class="max-w-6xl mx-auto space-y-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5 space-y-4">
+          <div class="font-mono text-xs uppercase tracking-widest text-gold">02 // ABOUT ME</div>
+          <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-alabaster">Curiosity-Driven Builder &amp; Grade 12 Student</h2>
+          <p class="text-sm sm:text-base text-slateMuted leading-relaxed">
+            I am a <strong class="text-alabaster">Grade 12 student</strong> in Kerala, India, focused on building practical technology, educational tools, and independent cinema. For me, learning goes far beyond textbooks and exam halls — it means questioning how everyday systems work, designing real prototypes, and sharing ideas through books and film.
+          </p>
+          <p class="text-sm sm:text-base text-slateMuted leading-relaxed">
+            My projects span hardware and product design with the distraction-free <strong class="text-alabaster">ToL ID Phone &amp; Artha AI</strong>, international EdTech with <strong class="text-alabaster">Eduhex UK — Focus Lab</strong> (showcased at BeTT 2026 in London), authoring three books on student agency in the age of AI (<strong class="text-alabaster">Author of Three</strong>), and directing the AICFF-selected film <strong class="text-alabaster">Mahaakaavya: The NEET Story</strong>.
+          </p>
+        </div>
+
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-5 rounded-2xl border border-white/10 bg-carbon space-y-2.5">
+            <div class="font-display font-bold text-base text-gold">Product &amp; EdTech Design</div>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-alabaster/90">
+              <li>• Product Requirement Documents (PRDs)</li>
+              <li>• Cognitive Focus Frameworks (FocusLab)</li>
+              <li>• AI School Business Planning</li>
+              <li>• Distraction-Free Hardware UX (ID Phone X Artha)</li>
+            </ul>
+          </div>
+          <div class="p-5 rounded-2xl border border-white/10 bg-carbon space-y-2.5">
+            <div class="font-display font-bold text-base text-gold">AI &amp; Rapid Prototyping</div>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-alabaster/90">
+              <li>• Generative AI Workflows &amp; Prompting</li>
+              <li>• Cybersecurity Threat Modeling (Sagaris AI)</li>
+              <li>• Drone Building &amp; Robotics (IIIT CREATE Lab)</li>
+              <li>• Hackathon Pitching &amp; Technical Writing</li>
+            </ul>
+          </div>
+          <div class="p-5 rounded-2xl border border-white/10 bg-carbon space-y-2.5">
+            <div class="font-display font-bold text-base text-gold">Filmmaking &amp; Storytelling</div>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-alabaster/90">
+              <li>• Narrative Direction (MAHAAKAAVYA The NEET STORY)</li>
+              <li>• Screenwriting &amp; Pre-Visualization</li>
+              <li>• On-Set Camera &amp; Production Direction</li>
+              <li>• Showreel &amp; Trailer Editing (ARISE 2026)</li>
+            </ul>
+          </div>
+          <div class="p-5 rounded-2xl border border-white/10 bg-carbon space-y-2.5">
+            <div class="font-display font-bold text-base text-gold">Authorship &amp; Leadership</div>
+            <ul class="space-y-1.5 text-xs sm:text-sm text-alabaster/90">
+              <li>• Author of Three (Gen Zombie, AI Zombie &amp; Focus Lab)</li>
+              <li>• Model UN &amp; Harvard Model Congress (Tomo Chan)</li>
+              <li>• National Cadet Corps (NCC "A" Certificate)</li>
+              <li>• Stage Anchoring &amp; Public Speaking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 23 Verified Certificates (01-08 by default + View More toggle) -->
+      <div id="section-certificates" class="space-y-6">
+        <div class="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <div class="font-mono text-xs uppercase tracking-widest text-gold">CREDENTIALS &amp; HONORS</div>
+            <h3 class="font-display text-2xl sm:text-3xl font-bold text-alabaster mt-1">23 Verified Certificates</h3>
+          </div>
+          <button id="toggle-certs-btn" type="button" onclick="toggleAllCertificates()" class="px-4 py-2 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] border border-white/10 font-mono text-xs text-gold transition-all">
+            View More (All 23 Certificates)
+          </button>
+        </div>
+        <div id="certificates-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. CONTACT & FOOTER -->
+  <section id="section-contact" class="py-20 px-4 sm:px-8">
+    <div class="max-w-6xl mx-auto space-y-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-6 space-y-6">
+          <div class="space-y-2">
+            <div class="font-mono text-xs uppercase tracking-widest text-gold">03 // CONTACT</div>
+            <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-alabaster">Let's Connect</h2>
+            <p class="text-sm sm:text-base text-slateMuted leading-relaxed">
+              Whether you're a university admissions reviewer, fellow builder, educator, or filmmaker, feel free to send a message or connect on LinkedIn and YouTube.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            <a href="https://www.linkedin.com/in/harold-rajesh-george-4144a2335/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl border border-white/10 bg-carbon hover:border-cyan/50 transition-all flex flex-col justify-between">
+              <div class="flex items-center justify-between text-cyan text-xs font-mono"><span>LINKEDIN</span><span>↗</span></div>
+              <div class="font-display font-bold text-sm text-alabaster mt-4">Harold Rajesh George</div>
+            </a>
+            <a href="https://www.youtube.com/@HaroldRajeshGeorgeKulangara" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl border border-white/10 bg-carbon hover:border-gold/50 transition-all flex flex-col justify-between">
+              <div class="flex items-center justify-between text-gold text-xs font-mono"><span>YOUTUBE</span><span>↗</span></div>
+              <div class="font-display font-bold text-sm text-alabaster mt-4">@HaroldRajeshGeorgeKulangara</div>
+            </a>
+            <a href="https://www.focuslab.school" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl border border-white/10 bg-carbon hover:border-gold/50 transition-all flex flex-col justify-between">
+              <div class="flex items-center justify-between text-gold text-xs font-mono"><span>EDTECH</span><span>↗</span></div>
+              <div class="font-display font-bold text-sm text-alabaster mt-4">www.focuslab.school</div>
+            </a>
+            <a href="https://you2zombie.com" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl border border-white/10 bg-carbon hover:border-cyan/50 transition-all flex flex-col justify-between">
+              <div class="flex items-center justify-between text-cyan text-xs font-mono"><span>BOOKS</span><span>↗</span></div>
+              <div class="font-display font-bold text-sm text-alabaster mt-4">you2zombie.com</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 rounded-3xl border border-white/10 bg-carbon p-6 sm:p-8">
+          <form onsubmit="event.preventDefault(); alert('Thank you! Your message for Harold Rajesh George has been recorded.'); this.reset();" class="space-y-4">
+            <div class="font-display text-lg font-bold text-alabaster">Send a Direct Message</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input type="text" required placeholder="Your Name" class="w-full px-3.5 py-2.5 rounded-xl bg-obsidian border border-white/10 text-sm text-alabaster focus:border-gold focus:outline-none" />
+              <input type="email" required placeholder="Your Email" class="w-full px-3.5 py-2.5 rounded-xl bg-obsidian border border-white/10 text-sm text-alabaster focus:border-gold focus:outline-none" />
+            </div>
+            <input type="text" required placeholder="Subject" class="w-full px-3.5 py-2.5 rounded-xl bg-obsidian border border-white/10 text-sm text-alabaster focus:border-gold focus:outline-none" />
+            <textarea rows="4" required placeholder="Write your message or review feedback for Harold..." class="w-full px-3.5 py-2.5 rounded-xl bg-obsidian border border-white/10 text-sm text-alabaster focus:border-gold focus:outline-none"></textarea>
+            <button type="submit" class="w-full py-3.5 rounded-xl bg-gold text-obsidian font-mono text-xs font-bold uppercase tracking-wider hover:bg-gold-light transition-all">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slateMuted">
+        <div>© 2026 Harold Rajesh George Kulangara — Grade 12 Student Portfolio.</div>
+        <div class="flex items-center gap-4">
+          <span>9° 44′ 34″ N, 76° 36′ 41″ E</span>
+          <span class="text-gold">KERALA, INDIA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT FILES & MEDIA VIEWER MODAL -->
+  <div id="vault-modal-backdrop" class="hidden fixed inset-0 z-50 bg-obsidian/90 backdrop-blur-xl p-3 sm:p-6 md:p-10 flex items-center justify-center">
+    <div class="relative w-full max-w-[1440px] h-[90dvh] rounded-3xl bg-[#12141C] border border-gold/40 shadow-2xl flex flex-col overflow-hidden">
+      <div class="px-6 py-4 border-b border-white/10 flex flex-wrap items-center justify-between gap-4 bg-obsidian/70">
+        <div>
+          <div id="modal-category-label" class="font-mono text-[11px] uppercase tracking-wider text-gold">PROJECT FILES &amp; MEDIA</div>
+          <h3 id="modal-record-title" class="font-display text-lg sm:text-2xl font-bold text-alabaster">Project Title</h3>
+        </div>
+        <div class="flex items-center gap-2">
+          <button type="button" onclick="closeVaultModal()" class="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-gold hover:text-obsidian font-mono text-xs">Close ✕</button>
+        </div>
+      </div>
+
+      <div class="flex-1 grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
+        <div class="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-white/10 p-5 overflow-y-auto space-y-5 bg-obsidian/40">
+          <div>
+            <label class="font-mono text-[10px] uppercase tracking-wider text-slateMuted block mb-2">SWITCH PROJECT (8)</label>
+            <select id="modal-record-select" onchange="openVaultModal(this.value)" class="w-full px-3.5 py-2.5 rounded-xl bg-carbon border border-white/15 font-mono text-xs text-alabaster focus:border-gold focus:outline-none"></select>
+          </div>
+          <div class="space-y-2">
+            <div class="font-mono text-[10px] uppercase tracking-wider text-slateMuted">FILES IN THIS PROJECT</div>
+            <div id="modal-asset-list" class="space-y-2"></div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-8 p-5 sm:p-8 overflow-y-auto flex flex-col justify-between bg-obsidian/20">
+          <div id="modal-viewer-content" class="space-y-4 flex-1 flex flex-col"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
